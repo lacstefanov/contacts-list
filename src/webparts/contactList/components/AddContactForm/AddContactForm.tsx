@@ -173,7 +173,7 @@ export default class AddContactForm extends React.Component<IAddContactFormProps
 
       public render(): React.ReactElement<IAddContactFormProps> {
 
-        const { firstName, lastName, userEmail, userCompany, userSalary, userCompanies, emailIsValid } = this.state;
+        const { firstName, lastName, userEmail,  userSalary, userCompanies } = this.state;
         const isEnabled = this.formValidation();
 
           return (<div>
